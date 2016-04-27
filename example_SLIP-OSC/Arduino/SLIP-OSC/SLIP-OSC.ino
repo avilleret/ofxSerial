@@ -13,7 +13,7 @@
 #include <OSCBundle.h>
 #include <PacketSerial.h>
 
-PacketSerial_<SLIP, SLIP::END, 8192> serial;
+PacketSerial_<SLIP, SLIP::END, 128> serial;
 
 #define LEDPIN 13
 
